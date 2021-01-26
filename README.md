@@ -1,9 +1,8 @@
 ### Problem Statement
 
-    Pull at least 1,000 posts each from 2 subreddits forums (startups & startup_ideas) and build a classification model that identifies which subreddit each post came from with an accuracy score of at least 90%. 
+Pull at least 1,000 posts each from 2 subreddits forums (startups & startup_ideas) and build a classification model that identifies which subreddit each post came from with an accuracy score of at least 90%. 
     
-    The classification models that will be examine are: Logistic Regression, Decision Tree, Random Forest and Extra Trees. These will all be examine and we will select the best model to productionize.  
-
+The classification models that will be examine are: Logistic Regression, Decision Tree, Random Forest and Extra Trees. These will all be examine and we will select the best model to productionize. 
 
 
 ### Data:
@@ -17,16 +16,17 @@
             . Startup - 900 rows
             . Startup_ideas - 991 rows
         . 2nd dataset I used the pushshift API method which consisted of:
-            . Startup - 900 rows
-            . Startup_ideas - 991 rows
+            . Startup - 1500 rows
+            . Startup_ideas - 1500 rows
     
-    | FieldName 1 | DataType | Description |
-    | --- | --- | ---|
-    | title | text | The title of the post |
-    | subreddit | integer | 1 represents startup and 0 for startup_ideas |
-    | polarity | float | Sentiment Polarity of the title |
-    | word_count | integer | The number of words in the title |
-    | title_length | integer | The total number of characters in the title |
+## Data Dictionary:    
+| FieldName | DataType | Description |
+| --- | --- | --- |
+| title | text | The title of the post |
+| subreddit | integer | 1 represents startup and 0 for startup_ideas |
+| polarity | float | Sentiment Polarity of the title |
+| word_count | integer | The number of words in the title |
+| title_length | integer | The total number of characters in the title |
 
 ### Methodology:
 

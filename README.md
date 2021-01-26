@@ -64,7 +64,6 @@
 | Decision Tree |	1 |	0.72559 |
 | Random Forest | 0.79496 |	0.78901 |
 | Extra Trees Classifier |	0.78306 |	0.77511 |
-  - Visualizations here are good
   
 ### Conclusions:
     - No matter how great your model is it can not cater for all possible data sets as I am seeing 99% accuracy on my final dataset while I saw an 80% on the previous set of data.

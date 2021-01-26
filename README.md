@@ -38,15 +38,14 @@ The classification models that will be examine are: Logistic Regression, Decisio
 
 
 ### EDA:
-    - Both datasets were very similar, having most words in commen
-    - There were 45 titles which only consist of 1 word, but on visualizing the    data there was a clear distiction between which word respresents which dataset, I therefore chose to leave these rows in my dataset
-    - The mode for the title was 10 words
-    - The sentiment were mainly neutral
+   - Both datasets were very similar, having most words in commen
+   - There were 45 titles which only consist of 1 word, but on visualizing the    data there was a clear distiction between       which word respresents which dataset, I therefore chose to leave these rows in my dataset
+   - The mode for the title was 10 words
+   - The sentiment were mainly neutral
 
 
 ### Data Preprocessing
    - Data augmentation (such as encoding categorical variables)
-   - 
    - Scaling
    - Vectorizing: CountVectorizer, TfidfVectorizer
    
@@ -66,9 +65,9 @@ The classification models that will be examine are: Logistic Regression, Decisio
 | Extra Trees Classifier |	0.78306 |	0.77511 |
   
 ### Conclusions:
-    - No matter how great your model is it can not cater for all possible data sets as I am seeing 99% accuracy on my final dataset while I saw an 80% on the previous set of data.
-    - Although I got my desired results, I am unsure how my model will perform with another set of data
-    - My Production model will be a toss up between my Logistic Regression and Random Forest Model. Initially the Logistic Model was performing better but after changing the params they are both performing equally as well
+No matter how great your model is it can not cater for all possible data sets as I am seeing 99% accuracy on my final       dataset while I saw an 80% on the previous set of data.
+Although I got my desired results, I am unsure how my model will perform with another set of data.
+My Production model will be a toss up between my Logistic Regression and Random Forest Model. Initially the Logistic         Model was performing better but after tuning the params on the Rondom Forest Model, they are both performing equally as well
 
   
 ### Next Steps:

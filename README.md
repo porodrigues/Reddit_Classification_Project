@@ -21,7 +21,7 @@
             . Startup_ideas - 991 rows
     
     | FieldName 1 | DataType | Description |
-    | -- | -- | -- |
+    | --- | --- | ---|
     | title | text | The title of the post |
     | subreddit | integer | 1 represents startup and 0 for startup_ideas |
     | polarity | float | Sentiment Polarity of the title |
